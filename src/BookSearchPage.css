@@ -1,0 +1,51 @@
+.bsp-bg {
+  
+  height: 100%;
+  width: 100%;
+  
+}
+
+.grid-container {
+  /* border: 2px dashed blue; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px; /* Optional: adds space between the cards */
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Media query for tablets (up to 768px wide) */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Media query for phones (up to 480px wide) */
+@media (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+.my-book-shelf{
+  float: right;
+  padding: 12px ;
+  font-size: 16px;
+  margin-right: 30px ;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: rgb(22, 159, 22) ;
+  cursor: pointer;
+}
+
+
+.no-result{
+  font-size: 28px;
+  text-align: center;
+  font-weight: 600;
+
+}

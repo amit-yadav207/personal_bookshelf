@@ -1,0 +1,44 @@
+.book-card {
+  border: 1px solid gray;
+  border-radius: 10px;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+.book-card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Example box-shadow with blur radius and transparency */
+  cursor: pointer;
+}
+
+.tdata {
+  text-align: left;
+  width: 140px;
+  vertical-align: top;
+  font-weight: bold;
+  color: rgb(37, 36, 36);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tdata2 {
+  text-align: left;
+}
+
+.add-btn {
+  margin: 15px auto;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+}
+
+table {
+  border-spacing: 20px;
+}
+
+
+.displayNone{
+display: none;
+}

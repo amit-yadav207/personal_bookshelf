@@ -1,0 +1,30 @@
+
+.bsp-bg {
+  
+    height: 100%;
+    width: 100%;
+    
+  }
+.grid-container-shelf {
+   
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px; 
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Media query for tablets (up to 768px wide) */
+  @media (max-width: 768px) {
+    .grid-container-shelf {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  /* Media query for phones (up to 480px wide) */
+  @media (max-width: 480px) {
+    .grid-container-shelf {
+      grid-template-columns: 1fr;
+    }
+  }
+  

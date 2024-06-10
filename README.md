@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Personal Bookshelf
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Objective
 
-## Available Scripts
+The "Personal Bookshelf" project aims to develop a React application enabling users to search for books using the Open Library API and maintain a personal bookshelf in the browser using localStorage.
 
-In the project directory, you can run:
+## Pages
 
-### `npm start`
+### Book Search Page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Objective
+Allow users to search for books using the Open Library API.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Components
 
-### `npm test`
+- **Search bar:** Input field for users to type in the book's name.
+- **Search results:** Display the search results in real-time as the user types.
+- **Book cards:** Each card represents a book result from the search.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Functionality
 
-### `npm run build`
+- **Real-time search:** Display search results in real-time as the user types in the search input.
+- **Accurate results:** Fetch accurate search results from the Open Library API.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React
+- Axios for API requests
+- React Router DOM for navigation
+- React Icons for search icon
+- React Toastify for toast notifications
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Personal Bookshelf Page
 
-### `npm run eject`
+#### Objective
+Allow users to maintain a personal bookshelf in the browser using localStorage.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Components
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Book cards:** Display the user's saved books in their personal bookshelf.
+- **Remove book functionality:** Allow users to remove books from their bookshelf.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Functionality
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Persistent storage:** Store the user's bookshelf persistently using localStorage.
+- **Display saved books:** Display the user's saved books on the bookshelf page.
+- **Remove book:** Allow users to remove books from their bookshelf by clicking on a button.
 
-## Learn More
+#### Tech Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React
+- LocalStorage for persistent storage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Tech Stack & Styling
 
-### Code Splitting
+- Styling: You're free to use any styling approach - CSS-in-JS, CSS modules, or regular CSS classnames.
+- Client-Side Rendering: Only client-side rendering is needed; no server-side rendering.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Evaluation Criteria
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Efficient API usage and data fetching.
+- Proper React component structure and interactivity.
+- Smooth user experience and intuitive interface.
+- Effective styling and layout presentation.
